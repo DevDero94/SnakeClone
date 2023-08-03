@@ -30,9 +30,9 @@ module.exports = (env, argv) => {
         //        },
         //        port: 1234, host: '0.0.0.0'
         //    },
-        devServer: {
-            static: './_dist',
-        },
+        //devServer: {
+         //   static: './_dist',
+        //},
         mode:"development",
         // Web games are bigger than pages, disable the warnings that our game is too big.
         performance: { hints: false },
